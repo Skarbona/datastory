@@ -24,12 +24,10 @@ Given the time constraints, I focused on delivering a functional core. With addi
 
 - **Comprehensive Testing:** Introduce a robust testing suite.
   - **Unit/Integration Tests:** Use **Jest** and **React Testing Library** to test individual components, state logic, and user interactions.
-  - **End-to-End (E2E) Tests:** Implement e2e tests with a framework like **Cypress** or **Playwright** to validate critical user flows from start to finish.
 
 - **Enhanced User Experience (UX):**
   - **Robust UI States:** Refactor the data fetching logic to provide a more robust loading and error UI. Instead of console logs, I would implement user-facing feedback, such as **toast notifications (snackbars)** for API errors.
   - **Searchable Country List:** For a large dataset of countries, a simple dropdown is inefficient. I would implement a search/filter feature within the `Select` component to improve usability.
-  - **Accessibility (a11y):** Conduct a full accessibility audit and implement improvements, such as adding proper **ARIA labels** and ensuring full **keyboard navigation** for all interactive elements.
 
 - **Code Architecture & Performance:**
   - **Component Abstraction:** Extract common, repeated elements like the styled `Select` control into their own reusable components to follow the DRY (Don't Repeat Yourself) principle.
@@ -38,8 +36,6 @@ Given the time constraints, I focused on delivering a functional core. With addi
 - **Styling and Theming:**
   - **Centralized Theme:** Fully leverage Chakra UI's theming capabilities by defining a custom theme file with project-specific colors, fonts, and component styles for a consistent and polished brand identity.
 
-- **Internationalization (i18n):**
-  - **Translation Support:** Investigate and potentially add support for multiple languages using a library like `next-i18next`. This would be a crucial feature for a global-facing data dashboard.
 
 ### **3. Decisions & Trade-offs**
 

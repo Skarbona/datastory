@@ -13,7 +13,7 @@ A modern React dashboard for visualizing country profile data using GraphQL, bui
 
 ## Tech Stack
 
-- **Framework**: Next.js 15 with App Router
+- **Framework**: Next.js 15
 - **UI Library**: Chakra UI v3
 - **State Management**: useActionState (React 19)
 - **Data Fetching**: GraphQL with server actions
